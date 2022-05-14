@@ -52,7 +52,7 @@ function loadDataAndCalcPrice() {
 }
 
 function cancleButton() {
-    window.location = "register.html"
+    window.location = "index.html"
 }
 
 function init() {
