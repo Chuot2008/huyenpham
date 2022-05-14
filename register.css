@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+@media (max-width: 600px) {
+    h1 {
+        text-align: center;
+    }
+    legend {
+        text-align: center;
+    }
+    
+}
+
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#reset {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#info, #course, #paymentDecor {
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    padding-left: 30px;
+    color: red;
+    margin: 15px 15px;
+}
+
+#occupation, #classType {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+#payment {
+    background-color: #f1f1f1;
+    border: 2;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}

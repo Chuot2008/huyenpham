@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Truong</title>
+    <link rel="stylesheet" href="register.css">
+    <script src="register.js"></script>
+</head>
+<body> 
+    <h1>Anh Truong Education</h1>
+    <form id="registerForm" method="post" action="confirm.html">
+        <div id="info">
+            <fieldset>
+                <legend>Personal Infomation</legend>
+                <p>
+                    <label for="firstname">Enter your Firstname: </label>
+                    <input type="text" id="firstname" name="firstname">
+                </p>
+                <p>
+                    <label for="lastname">Enter your Lastname: </label>
+                    <input type="text" id="lastname" name="lastname">
+                </p>
+                <p>
+                    <label for="email">Enter your Email: </label>
+                    <input type="text" id="email" name="email">
+                </p>
+                <p>
+                    <label for="phonenumber">Enter your Phone Number: </label>
+                    <input type="text" id="phonenumber" name="phonenumber">
+                </p>
+                <p>
+                    <label for="age">Enter your Age: </label>
+                    <input type="text" id="age" name="age">
+                </p>
+            </fieldset>
+            <br>
+        </div>
+
+        <div id="occupation">
+            <fieldset id="radioOccupation">
+                <legend>Select your occupation</legend>
+                <label for="primary">Primary School</label>
+                <input type="radio" id="primary" name="occupation" value="Primary">
+                <br>
+
+                <label for="secondary">Secondary School</label>
+                <input type="radio" id="secondary" name="occupation" value="Secondary">
+                <br>
+
+                <label for="highschool">Highschool</label>
+                <input type="radio" id="highschool" name="occupation" value="Highschool">
+                <br>
+
+                <label for="university">University</label>
+                <input type="radio" id="university" name="occupation" value="University">
+                <br>
+            </fieldset>
+            <br>
+        </div>
+ 
+        <div id="course">
+            <fieldset id="courses">
+                <legend>Select Course(s)</legend>
+                <label for="toeic">Toeic</label>
+                <input type="checkbox" id="toeic" name="course" value="Toeic">
+                <br>
+
+                <label for="ielts">Ielts</label>
+                <input type="checkbox" id="ielts" name="course" value="Ielts">
+                <br>
+
+                <label for="toefl">Toefl</label>
+                <input type="checkbox" id="toefl" name="course" value="Toefl">
+                <br>
+
+                <label for="textbook">Textbook + Other books</label>
+                <input type="checkbox" id="textbook" name="course" value="Textbook_and_Other_books">
+                <br>
+            </fieldset>
+            <br>
+        </div>
+
+        <div id="classType">
+            <fieldset>
+                <legend>Class-Type</legend>
+                <label for="tutor">Tutor (500K)</label>
+                <input type="radio" id="tutor" name="type" value="Tutor">
+                <br>
+
+                <label for="2_3">2 to 3 Students/ class (250-350K/ student)</label>
+                <input type="radio" id="2_3" name="type" value="Two to Three">
+                <br>
+
+                <label for="5_20">5 to 20 Students</label>
+                <input type="radio" id="5_20" name="type" value="Five to Twenty">
+                <br>
+            </fieldset>
+            <br>
+        </div>
+
+        <div id="paymentDecor">
+            <label for="payment">Payment Method</label>
+
+            <select name="payment" id="payment">
+                <option value="none">Please select</option>
+                <option value="Transfer">Bank transfer</option>
+                <option value="In cash">Pay in cash</option>
+            </select>
+            <br>
+            <br>
+        </div>
+
+        <br>
+        <div class="container">
+            <input type="submit" value="Next Step" id="button">
+            <input type="reset" value="Reset" id="reset">
+        </div>
+
+    </form>
+    <br>
+    <footer>
+        Created by Chuot - Email me: ducanhtruong2k8@gmail.com
+    </footer>
+
+</body>
+</html>
